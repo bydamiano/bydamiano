@@ -50,10 +50,9 @@
     <clipPath id="lcl12"><rect x="500" y="292" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.14s" fill="freeze"/></rect></clipPath>
     <clipPath id="lcl13"><rect x="500" y="314" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.26s" fill="freeze"/></rect></clipPath>
     <clipPath id="lcl14"><rect x="500" y="336" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.38s" fill="freeze"/></rect></clipPath>
-    <clipPath id="lcl15"><rect x="500" y="358" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.50s" fill="freeze"/></rect></clipPath>
 
     <style>
-      .ascii-l  { font-family: 'Consolas', 'Courier New', monospace; font-size: 8.5px; fill: url(#asciiGradLight); letter-spacing: -0.2px; }
+      .ascii-l  { font-family: 'Consolas', 'Courier New', monospace; font-size: 6px; fill: url(#asciiGradLight); letter-spacing: -0.2px; }
       .key-l    { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #0284C7; font-weight: bold; }
       .value-l  { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #0F172A; }
       .cc-l     { font-family: 'Consolas', 'Courier New', monospace; font-size: 14px; fill: #94A3B8; }
@@ -95,40 +94,75 @@
       <g>
         <animateTransform attributeName="transform" type="translate" values="0 0; 0 -4; 0 0" dur="6s" repeatCount="indefinite"/>
         <text x="32" y="55" class="ascii-l">
-          <tspan x="32" y="75.00" xml:space="preserve">                           .........                          </tspan>
-          <tspan x="32" y="86.50" xml:space="preserve">                        .''   .  .   ....                    </tspan>
-          <tspan x="32" y="98.00" xml:space="preserve">                      '' .    . ..  ...   ...                </tspan>
-          <tspan x="32" y="109.50" xml:space="preserve">                     ...                    ..                </tspan>
-          <tspan x="32" y="121.00" xml:space="preserve">                       '-+*#%%%#*##*+=-:'                     </tspan>
-          <tspan x="32" y="132.50" xml:space="preserve">                     '%██████████████████@*-                  </tspan>
-          <tspan x="32" y="144.00" xml:space="preserve">                    '███████████████████████=                 </tspan>
-          <tspan x="32" y="155.50" xml:space="preserve">                   .+███████████████████████%'.               </tspan>
-          <tspan x="32" y="167.00" xml:space="preserve">                   -██#=-=*#████████████████%--'              </tspan>
-          <tspan x="32" y="178.50" xml:space="preserve">                   :*-:----:#█████%-:::---@██*--'             </tspan>
-          <tspan x="32" y="190.00" xml:space="preserve">                   .**--:':--%███#-::::--:-+#*--              </tspan>
-          <tspan x="32" y="201.50" xml:space="preserve">                 ---█=#+  -'--██#:*-. -:--#' -.-=-            </tspan>
-          <tspan x="32" y="213.00" xml:space="preserve">                 +@-███+   :█@███%█+  . @*%%#*=@@█:           </tspan>
-          <tspan x="32" y="224.50" xml:space="preserve">                 '%*████%**@█████@█@-:'=█████@%=██.           </tspan>
-          <tspan x="32" y="236.00" xml:space="preserve">                   -█████████████████████████@@@@-            </tspan>
-          <tspan x="32" y="247.50" xml:space="preserve">                '-::██████*-':+:'-=@████████==#=.             </tspan>
-          <tspan x="32" y="259.00" xml:space="preserve">               -#+---+████+=+#@#+-:=██████#:                  </tspan>
-          <tspan x="32" y="270.50" xml:space="preserve">               +█*--  :=*'+██-':███*=██%=-                    </tspan>
-          <tspan x="32" y="282.00" xml:space="preserve">                -+#█-      ::   :--  '.                       </tspan>
-          <tspan x="32" y="293.50" xml:space="preserve">                  -#-'..                                      </tspan>
-          <tspan x="32" y="305.00" xml:space="preserve">               -%%@%@@@%%%*+  --'                             </tspan>
-          <tspan x="32" y="316.50" xml:space="preserve">             :++████████████-'.'.                             </tspan>
-          <tspan x="32" y="328.00" xml:space="preserve">             %█*█████@@████@*#*=%*' '                         </tspan>
-          <tspan x="32" y="339.50" xml:space="preserve">            -█*+█*-%@:%+*██%.%█████#%:                        </tspan>
-          <tspan x="32" y="351.00" xml:space="preserve">             @%+█+-@-*█=-@█#-@██████-'                        </tspan>
-          <tspan x="32" y="362.50" xml:space="preserve">             :=*███%+█@%███*:@██████=                         </tspan>
-          <tspan x="32" y="374.00" xml:space="preserve">               *███████████%-*█████%:                         </tspan>
-          <tspan x="32" y="385.50" xml:space="preserve">               .-=*#%%%%%#+'  .'--'                           </tspan>
+          <tspan x="116" y="60.00" xml:space="preserve">                                        ███████████ ██</tspan>
+          <tspan x="116" y="66.40" xml:space="preserve">                                  ███████@%%%@%%@%%@████████</tspan>
+          <tspan x="116" y="72.80" xml:space="preserve">                             ███@%%%%@@@@@@@@@@@@@@@@@@@%%%@████</tspan>
+          <tspan x="116" y="79.20" xml:space="preserve">                         ███@#%%%@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@@███</tspan>
+          <tspan x="116" y="85.60" xml:space="preserve">                       ██@@%@█@@%@@@@@@@@%%@@@@@@@@@@@@@@@@@@@@@@████</tspan>
+          <tspan x="116" y="92.00" xml:space="preserve">                     ███@%%%@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%███</tspan>
+          <tspan x="116" y="98.40" xml:space="preserve">                   ██@#@@%@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%@█</tspan>
+          <tspan x="116" y="104.80" xml:space="preserve">                  ██@@@@@@@@@@@@@█@@@@█@@██@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%█</tspan>
+          <tspan x="116" y="111.20" xml:space="preserve">                 █@%@@@@@@@@@█@@███████@@██@@@██@@@█@@@@@@@@@@@@@@@@@@@@@████</tspan>
+          <tspan x="116" y="117.60" xml:space="preserve">                █@@@@@@@@██@███████████████████████████████@█@█@@@@@@@@██████</tspan>
+          <tspan x="116" y="124.00" xml:space="preserve">               ██@@@@@██████████████████████████████████████████@@@@█@████████</tspan>
+          <tspan x="116" y="130.40" xml:space="preserve">               █████████████████@%%%#%%#%@███@@@@@█████████████████@███████████</tspan>
+          <tspan x="116" y="136.80" xml:space="preserve">               ██████████@#=:-'.          .........'--:=#%@@@███████████████████</tspan>
+          <tspan x="116" y="143.20" xml:space="preserve">              ████████%='.                                 .':*%@███████████████</tspan>
+          <tspan x="116" y="149.60" xml:space="preserve">              ███████:                                          .-#@████████████</tspan>
+          <tspan x="116" y="156.00" xml:space="preserve">             ██████%.                                              .+████████████</tspan>
+          <tspan x="116" y="162.40" xml:space="preserve">             █████@.                                                .+███████████</tspan>
+          <tspan x="116" y="168.80" xml:space="preserve">             ███@%+                                                 .'@@█████████</tspan>
+          <tspan x="116" y="175.20" xml:space="preserve">              █@%#.                                                  .%%%%███████</tspan>
+          <tspan x="116" y="181.60" xml:space="preserve">              █%##.                                                  .###%%@@████</tspan>
+          <tspan x="116" y="188.00" xml:space="preserve">              █##:.    .-:=:'.                                       '**##%%%@██</tspan>
+          <tspan x="116" y="194.40" xml:space="preserve">              █#*...'#@███████@%#*-                   ....           '+***##%%██</tspan>
+          <tspan x="116" y="200.80" xml:space="preserve">              █%=. +██@%%#%@███████+            :#%%@@@@@@@@@%*'     .'+***###██</tspan>
+          <tspan x="116" y="207.20" xml:space="preserve">              ██%%@@@@@@%%#*+=:=*##-           '@███████████████%'  ...-******█</tspan>
+          <tspan x="116" y="213.60" xml:space="preserve">           ██████@%#####@@@@██████%=.         ..-+#%%%%%##**++*%█#.....'*++++*█</tspan>
+          <tspan x="116" y="220.00" xml:space="preserve">           █████*   .*@█████████@@██@'       -%██████@@@@@@████████@%#+-*++++#█</tspan>
+          <tspan x="116" y="226.40" xml:space="preserve">           @+███*  :@█*'-@████████%@█@'''''':██@++@██████████%+-:+@█████@@██@██</tspan>
+          <tspan x="116" y="232.80" xml:space="preserve">          @*'@@@+  +@...%█████=-██#=██:----:%█%'=█%@████@#██*%██+..@███%@███%+::#█</tspan>
+          <tspan x="116" y="239.20" xml:space="preserve">          @='=#%+  .:.. ██████████-.=-     .:%-.+'+█████%+@█#.-@█=.#█@-:%%*...''.*█</tspan>
+          <tspan x="116" y="245.60" xml:space="preserve">          █*.-*@+     ..#████████@.-=.     ..=-. .#█████████#..=%'.:*'.:##-.=+=::'@</tspan>
+          <tspan x="116" y="252.00" xml:space="preserve">          @%.-=%-    . ..+%@@@@@%- ::       .+:. .=█████████-.... .-'. -++'*+:'..'█</tspan>
+          <tspan x="116" y="258.40" xml:space="preserve">           █#.'#-.......   :==='  --..       '-.   =%@██@@#-.     '-...--'=*+='..*█</tspan>
+          <tspan x="116" y="264.80" xml:space="preserve">            @*'█---'...         .-'...        ''     -===-       .'. .':-.====..:@</tspan>
+          <tspan x="116" y="271.20" xml:space="preserve">             @@█-..--''.......''.  .'.         '''         ...  ''   .-:--+=:..:%</tspan>
+          <tspan x="116" y="277.60" xml:space="preserve">               █=.......           .-::::--.  ....'''..''''''''''.  .-:+''-...+@</tspan>
+          <tspan x="116" y="284.00" xml:space="preserve">          '*'' █@'..           :#%@███@+@@@@%%#*'..      ......    .-=*#...'+%@</tspan>
+          <tspan x="116" y="290.40" xml:space="preserve">         *+'*+#@@-'..        .*███████%=@████████%'.             ..:*%█@%%%@█</tspan>
+          <tspan x="116" y="296.80" xml:space="preserve">        '=+'''+'=+%='       ..#%#%#**=::=++*#%@███%..           .'=#███</tspan>
+          <tspan x="116" y="303.20" xml:space="preserve">      '=::--=*' #███#'..   ..*=  ........''--:==:#*..       ..'':*████</tspan>
+          <tspan x="116" y="309.60" xml:space="preserve">      *::--'''    ████%+....%█*     =%@@%%#'.     =@-.    ..'-+*@████</tspan>
+          <tspan x="116" y="316.00" xml:space="preserve">      '+:--'''**'   ████@%*%██%:    +@█████:..    #█@'..'-:*@@█████</tspan>
+          <tspan x="116" y="322.40" xml:space="preserve">       '+=----'''*    █████████@#+++%██████='..':#███@*%@@███████</tspan>
+          <tspan x="116" y="328.80" xml:space="preserve">         #*++'-..+   ████████████████████████@@███████████████████</tspan>
+          <tspan x="116" y="335.20" xml:space="preserve">              :.:@██████████████████████████████████████████████████</tspan>
+          <tspan x="116" y="341.60" xml:space="preserve">             '++@@%████████████████████████████████████████████████████</tspan>
+          <tspan x="116" y="348.00" xml:space="preserve">       ██@##*=:::==++++*###%%@██████████████████████████████████████████</tspan>
+          <tspan x="116" y="354.40" xml:space="preserve">      █#.-:=:::::::--''''''...'-+*@███@*#+#@██████████████████████████████</tspan>
+          <tspan x="116" y="360.80" xml:space="preserve">      █+..... .'--::::-:::----''' #████@+██████████████████████████████████</tspan>
+          <tspan x="116" y="367.20" xml:space="preserve">   @##█+.......................   %████████████████████████████████████████</tspan>
+          <tspan x="116" y="373.60" xml:space="preserve"> █@.  %=.......................  '+**#@██@%%████████████████████████████████</tspan>
+          <tspan x="116" y="380.00" xml:space="preserve"> █+..'%-....................... .  ..  .%#'..=@██████@@█████████████████████</tspan>
+          <tspan x="116" y="386.40" xml:space="preserve">█%-':=█'............#% ........ .=@██#+=+##*=..*@██%#%@██████████████████████</tspan>
+          <tspan x="116" y="392.80" xml:space="preserve">█=...'@-.... +@@...*█*.++ ..... .'██-......      =#..%███████████████████████</tspan>
+          <tspan x="116" y="399.20" xml:space="preserve">█# .+*█'...*██*...:█%..+@@*'.....-██+==::.        -# :*@█████████████████████</tspan>
+          <tspan x="116" y="405.60" xml:space="preserve"> @..:=█'..'%█%'..'██.... #██'.   =█#'...'          =█%#██████████████████████</tspan>
+          <tspan x="116" y="412.00" xml:space="preserve"> █+..:@.....-%█*.%█:...*@█#-..   +█*-'.            '%█████@██████████████████</tspan>
+          <tspan x="116" y="418.40" xml:space="preserve">  █--=█........ =█#...'*:.....   *█%:::-.          '+████████████████████████</tspan>
+          <tspan x="116" y="424.80" xml:space="preserve">   @%%█ ........'+............  .%█*.              -+████████████████████████</tspan>
+          <tspan x="116" y="431.20" xml:space="preserve">      █....................... ..:*█*===.         .-%████████████████████████</tspan>
+          <tspan x="116" y="437.60" xml:space="preserve">      █ ...................... .-:.@+........    ':*████████████████████████</tspan>
+          <tspan x="116" y="444.00" xml:space="preserve">      █=...................... .-████@%##*:--''-*%@█████████████████████████</tspan>
+          <tspan x="116" y="450.40" xml:space="preserve">       ██@#*='. ..........  ..:*%█        ██@@@████████████████████████████</tspan>
+          <tspan x="116" y="456.80" xml:space="preserve">             ████@@@%%%%%@@@███                  █████████████████████████</tspan>
         </text>
       </g>
     </g>
 
     <!-- RIGHT SIDE: Typewritten Details -->
-    <g clip-path="url(#lcl0)"><text x="520" y="0"><tspan x="520" y="42" class="head-l">bydamiano@devos</tspan><tspan class="cc-l"> -----------------------------------------</tspan></text></g>
+    <g clip-path="url(#lcl0)"><text x="520" y="0"><tspan x="520" y="42" class="head-l">contact@bydamiano.me</tspan><tspan class="cc-l"> ------------------------------------</tspan></text></g>
     <g clip-path="url(#lcl1)"><text x="520" y="0"><tspan x="520" y="66" class="cc-l">. </tspan><tspan class="key-l">User</tspan><tspan class="cc-l">: ............................. </tspan><tspan class="value-l">ByDamiano</tspan></text></g>
     <g clip-path="url(#lcl2)"><text x="520" y="0"><tspan x="520" y="88" class="cc-l">. </tspan><tspan class="key-l">Role</tspan><tspan class="cc-l">: ............................. </tspan><tspan class="value-l">Frontend &amp; AI Developer</tspan></text></g>
     <g clip-path="url(#lcl3)"><text x="520" y="0"><tspan x="520" y="110" class="cc-l">. </tspan><tspan class="key-l">Location</tspan><tspan class="cc-l">: ......................... </tspan><tspan class="value-l">Rome, Italy</tspan></text></g>
@@ -141,12 +175,11 @@
     <g clip-path="url(#lcl10)"><text x="520" y="0"><tspan x="520" y="264" class="cc-l">. </tspan><tspan class="key-l">Core</tspan><tspan class="cc-l">.</tspan><tspan class="key-l">DevOps</tspan><tspan class="cc-l">: ........ </tspan><tspan class="value-l">Docker, AWS, CI/CD, Git</tspan></text></g>
     <g clip-path="url(#lcl11)"><text x="520" y="0"><tspan x="520" y="286" class="cc-l">. </tspan></text></g>
     <g clip-path="url(#lcl12)"><text x="520" y="0"><tspan x="520" y="308" class="accent-l">- Connect</tspan><tspan class="cc-l"> ---------------------------------------------</tspan></text></g>
-    <g clip-path="url(#lcl13)"><text x="520" y="0"><tspan x="520" y="330" class="cc-l">. </tspan><tspan class="key-l">Mail</tspan><tspan class="cc-l">: ............................ </tspan><tspan class="value-l">contact@bydamiano.me</tspan></text></g>
-    <g clip-path="url(#lcl14)"><text x="520" y="0"><tspan x="520" y="352" class="cc-l">. </tspan><tspan class="key-l">GitHub</tspan><tspan class="cc-l">: .......................... </tspan><tspan class="value-l">github.com/bydamiano</tspan></text></g>
-    <g clip-path="url(#lcl15)"><text x="520" y="0"><tspan x="520" y="374" class="cc-l">. </tspan><tspan class="value-l">Angular by day. Local LLMs by night.</tspan></text></g>
+    <g clip-path="url(#lcl13)"><text x="520" y="0"><tspan x="520" y="330" class="cc-l">. </tspan><tspan class="key-l">GitHub</tspan><tspan class="cc-l">: .......................... </tspan><tspan class="value-l">github.com/bydamiano</tspan></text></g>
+    <g clip-path="url(#lcl14)"><text x="520" y="0"><tspan x="520" y="352" class="cc-l">. </tspan><tspan class="value-l">Angular by day. Local LLMs by night.</tspan></text></g>
 
     <!-- Blinking Cursor -->
-    <rect x="522" y="383" width="9" height="16" class="cursor-blink-l" opacity="0">
+    <rect x="522" y="361" width="9" height="16" class="cursor-blink-l" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.1s" repeatCount="indefinite"/>
     </rect>
   </g>
