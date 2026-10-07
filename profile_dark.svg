@@ -54,6 +54,7 @@
     <clipPath id="lc11"><rect x="500" y="270" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.02s" fill="freeze"/></rect></clipPath>
     <clipPath id="lc12"><rect x="500" y="292" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.14s" fill="freeze"/></rect></clipPath>
     <clipPath id="lc13"><rect x="500" y="314" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.26s" fill="freeze"/></rect></clipPath>
+    <clipPath id="lc14"><rect x="500" y="336" width="0" height="24"><animate attributeName="width" from="0" to="690" dur="0.35s" begin="2.38s" fill="freeze"/></rect></clipPath>
 
     <style>
       .ascii  { font-family: 'Consolas', 'Courier New', monospace; font-size: 8.5px; fill: url(#asciiGrad); letter-spacing: -0.2px; }
@@ -140,15 +141,16 @@
     <g clip-path="url(#lc5)"><text x="520" y="0"><tspan x="520" y="154" class="cc">. </tspan></text></g>
     <g clip-path="url(#lc6)"><text x="520" y="0"><tspan x="520" y="176" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Frontend</tspan><tspan class="cc">: ...... </tspan><tspan class="value">Angular v17+, TS, RxJS, Signals</tspan></text></g>
     <g clip-path="url(#lc7)"><text x="520" y="0"><tspan x="520" y="198" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">Arch</tspan><tspan class="cc">: .......... </tspan><tspan class="value">Nx Monorepo, AG Grid, Storybook</tspan></text></g>
-    <g clip-path="url(#lc8)"><text x="520" y="0"><tspan x="520" y="220" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">AI/Tools</tspan><tspan class="cc">: ...... </tspan><tspan class="value">Claude Code, Gemini, MCP, Codex</tspan></text></g>
-    <g clip-path="url(#lc9)"><text x="520" y="0"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">DevOps</tspan><tspan class="cc">: ........ </tspan><tspan class="value">Docker, AWS, Bitbucket CI/CD, Git</tspan></text></g>
-    <g clip-path="url(#lc10)"><text x="520" y="0"><tspan x="520" y="264" class="cc">. </tspan></text></g>
-    <g clip-path="url(#lc11)"><text x="520" y="0"><tspan x="520" y="286" class="accent">- Connect</tspan><tspan class="cc"> ---------------------------------------------</tspan></text></g>
-    <g clip-path="url(#lc12)"><text x="520" y="0"><tspan x="520" y="308" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Github</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">github.com/bydamiano</tspan></text></g>
-    <g clip-path="url(#lc13)"><text x="520" y="0"><tspan x="520" y="330" class="cc">. </tspan><tspan class="value">Building enterprise micro-frontends &amp; AI tools ⚡</tspan></text></g>
+    <g clip-path="url(#lc8)"><text x="520" y="0"><tspan x="520" y="220" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">AI/Tools</tspan><tspan class="cc">: ...... </tspan><tspan class="value">Claude Code, Gemini, MCP, Codex, n8n</tspan></text></g>
+    <g clip-path="url(#lc9)"><text x="520" y="0"><tspan x="520" y="242" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">LocalAI</tspan><tspan class="cc">: ....... </tspan><tspan class="value">Ollama, vLLM, llama.cpp, Unsloth</tspan></text></g>
+    <g clip-path="url(#lc10)"><text x="520" y="0"><tspan x="520" y="264" class="cc">. </tspan><tspan class="key">Core</tspan><tspan class="cc">.</tspan><tspan class="key">DevOps</tspan><tspan class="cc">: ........ </tspan><tspan class="value">Docker, AWS, Bitbucket CI/CD, Git</tspan></text></g>
+    <g clip-path="url(#lc11)"><text x="520" y="0"><tspan x="520" y="286" class="cc">. </tspan></text></g>
+    <g clip-path="url(#lc12)"><text x="520" y="0"><tspan x="520" y="308" class="accent">- Connect</tspan><tspan class="cc"> ---------------------------------------------</tspan></text></g>
+    <g clip-path="url(#lc13)"><text x="520" y="0"><tspan x="520" y="330" class="cc">. </tspan><tspan class="key">Grid</tspan><tspan class="cc">.</tspan><tspan class="key">Github</tspan><tspan class="cc">: ..................... </tspan><tspan class="value">github.com/bydamiano</tspan></text></g>
+    <g clip-path="url(#lc14)"><text x="520" y="0"><tspan x="520" y="352" class="cc">. </tspan><tspan class="value">Building enterprise micro-frontends &amp; AI tools ⚡</tspan></text></g>
 
     <!-- Blinking Cursor -->
-    <rect x="522" y="339" width="9" height="16" class="cursor-blink" opacity="0">
+    <rect x="522" y="361" width="9" height="16" class="cursor-blink" opacity="0">
       <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="3.1s" repeatCount="indefinite"/>
     </rect>
   </g>
